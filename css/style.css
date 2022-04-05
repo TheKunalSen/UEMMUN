@@ -9,7 +9,7 @@
 	font-weight: normal;
 	font-style: normal;
 	font-size: 15px;
-	color: #000000;
+	color: white;
 	
 }
 body::-webkit-scrollbar {
@@ -2188,7 +2188,7 @@ blockquote::before {
 
 /* 21. Preloader */
 #preloader{
-	background: rgb(0, 0, 0);
+	background:white;
 	height: 100%;
 	width: 100%;
 	position: fixed;
@@ -2229,7 +2229,7 @@ blockquote::before {
 	 transition-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
 }
 .mainload .loadtext{
-	color: white;
+	color: black;
 margin: 0;
 padding-left: 5%;
 width: 100%;
