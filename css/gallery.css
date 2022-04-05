@@ -43,7 +43,7 @@ h1{
     column-count:1;
   }  
   }
-  #gallery img,#gallery video {
+  #gallery .imageExpand,#gallery video {
     width:100%;
     height:auto;
     margin: 4% auto;
