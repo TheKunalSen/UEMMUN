@@ -172,7 +172,7 @@ label {
 
 /* button style */
 .btn {
-	-moz-user-select: none;
+	--moz-user-select: none;
 	background: #000 none repeat scroll 0 0;
 	border: medium none;
 	border-radius: 0;
@@ -2269,4 +2269,15 @@ padding-left: 0%;
 #preloader {
 	transition-duration: 0.5s;
 	z-index: 99999;
+}
+
+.posterContainer{
+height: 470px;	
+width: 470px;
+}
+@media screen and (max-width: 800px){
+	.posterContainer{
+		height: 300px;
+		width: 300px;
+	}
 }
