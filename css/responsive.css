@@ -106,7 +106,11 @@
 }
 .about-img img {
 	width: 100%;
+	;
 }
+
+
+
 .blog-sidebar {
 	padding-left: 0;
 }
@@ -733,5 +737,7 @@ blockquote::before {
 	display: inline-block;
 	margin-top: 0;
 }
-
+.about-img {
+	text-align: center;
+}
 }
