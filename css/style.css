@@ -609,6 +609,7 @@ label {
 }
 .about-img {
 	text-align: right;
+	padding-right: 70px;
 }
 .about-img img {
 	display: inline-block;
