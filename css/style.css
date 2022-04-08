@@ -608,8 +608,24 @@ label {
 	text-transform: uppercase;
 }
 .about-img {
-	text-align: right;
-	padding-right: 70px;
+	/* text-align: right;
+	padding-right: 70px; */
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width:521px;
+	height:521px;
+}
+@media screen and (max-width: 800px){
+	.about-img {
+		display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-right: 20px;
+		height: 400px;
+		width: 400px;
+	}
 }
 .about-img img {
 	display: inline-block;
