@@ -2275,8 +2275,20 @@ padding-left: 0%;
 height: 470px;	
 width: 470px;
 }
+
+.medialogo{
+	width: 521px;
+	height:521px;
+}
 @media screen and (max-width: 800px){
 	.posterContainer{
+		height: 300px;
+		width: 300px;
+	}
+}
+
+@media (max-width: 800px){
+	.medialogo{
 		height: 300px;
 		width: 300px;
 	}
